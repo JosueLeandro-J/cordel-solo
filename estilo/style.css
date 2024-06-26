@@ -17,3 +17,84 @@
     font-family: var(--fonte1);
 }
 
+html, body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 30px;
+    font-family: var(--fonte2);
+    font-size: 3em;
+
+}
+
+header > p{
+    padding-bottom: 30px;
+
+}
+header  a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+main p{
+    font-family: var(--fonte3);
+    font-size: 2em;
+}
+pre{
+    white-space: pre-line;
+    padding-bottom: 30px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 50px;
+}
+section.caixa > pre{
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 400px;
+    color: white;
+    
+    
+    
+}
+
+section.caixa{
+    box-shadow: inset 0px 7px 15px 3px black;
+    background-attachment: fixed;
+}
+
+
+
+section#img1{
+    background-image: url(../imagens/imagens/background001.jpg);
+    background-position:  center center;
+    text-shadow: 2px 16px 15px black;
+    
+}
+section#img2{
+    background-image: url(../imagens/imagens/background002.jpg);
+    text-shadow: 2px 16px 15px black;
+    
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
